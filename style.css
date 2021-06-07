@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+    --primery-color: #da7f8f;
+    --primery-color-darker: #ce4d64;
+    --primery-color-black: #a01730;;
+      
+}
+
+*  {
+    box-sizing: border-box;
+    outline: 0;
+
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../MODELO/assets/img/national-cancer-institute-L8tWZT4CcVQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto';
+    font-size: 1.3em;
+    line-height: 1.5em;   
+}
+
+.caixa {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+form input{
+    font-size: 24px;
+    height: 40px;
+    padding: 0 20px;
+
+}
+
+form input:focus {
+    outline: 1px solid var(--primery-color )
+
+}
+
+form button{
+
+    border: none;
+    background: var(--primery-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 25px;
+
+}
+form button:hover {
+    background: var(--primery-color-darker);
+
+}
+form button:active {
+    background: var(--primery-color-black);
+
+}
+
+.paragrafo-resposta { 
+    background: #67dbb8;
+    padding: 10px 20px;
+
+}
+.bad {
+    background: rgb(219, 55, 55);
+    padding: 10px 20px;
+    color: white;
+
+}
